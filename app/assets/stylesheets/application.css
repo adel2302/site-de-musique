@@ -7,15 +7,12 @@ background-position: 0% 60%;
 }
 
 .background_filter::before {
- background-color: rgba(59, 53, 53, 0.65);
+ background-color: rgba(8, 6, 6, 0.6);
  content: "";
  position: absolute;
  z-index: -1;
  width: 100%;
  height: 112%;
- -webkit-filter: opacity(65%);
- -moz-filter: opacity(65%);
- -o-filter: opacity(65%);
 }
 .background_filter {
  position: absolute;
@@ -65,9 +62,182 @@ footer ul li i{
 
 footer h5{
   margin-top: 3.5%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', normal;
   font-weight: 400;
   color: white;
+}
+
+.contents{
+   width:85%;
+   margin: auto;
+}
+
+.title_home{
+   text-align:center;
+    margin-top:13%;
+ }
+
+ .title_home h1{
+   color:white;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+   font-size-adjust: 1.3; 
+ }
+
+ .title_home h6{
+   color: #D3D3D3;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+   font-size-adjust: 0.98;
+ }
+.contents h3 span{
+  font-family: 'Open Sans', bold;
+  font-weight: 700;
+  color: white;
+  float: left;
+}
+
+.contents a{
+	text-decoration: none;
+	float:right;
+	color: grey;
+	font-size-adjust: 0.5; 
+}
+
+.images_gauche{
+	display: inline-block;
+	box-sizing:border-box;
+	vertical-align: top;
+	width: 30%;
+	padding: 1em 0px 0px 0px;
+    margin-right: 2%;
+}
+
+
+.images_milieu{
+	border-left: 0.5px solid grey;
+	border-right: 0.5px solid grey;
+	display: inline-block;
+	box-sizing:border-box;
+	vertical-align: top;
+	width: 34.2%;
+    padding: 1em 1.9em 0em 1em;
+}
+
+.images_droite{
+	display: inline-block;
+	box-sizing:border-box;
+	vertical-align: top;
+	width: 31%;
+    padding: 1em 0px 0px 0.9em;
+}
+
+.images_home{
+	width: 105%;
+}
+.images_content{
+    border-top: 0.5px solid grey;
+	border-bottom: 0.5px solid grey;
+	font-family: 'Open Sans', bold;
+    font-weight: 700;
+	color: white;
+}
+
+.coming h3{
+	font-family: 'Open Sans', bold;
+    font-weight: 700;
+    color: white;
+    margin-top: 7%;
+}
+
+.date p span.mois {
+  float: left;
+  margin-left: 1%;
+  color:#B7B5B5;
+}
+
+.date{
+	border-top: 0.5px solid grey;
+	border-bottom: 0.5px solid grey;
+}
+
+.date p span.droite {
+  float: right;
+  margin-right: 35%;
+  color:#B7B5B5;
+}
+.date p span.milieu {
+  margin-left: 6%;
+  font-family: 'Open Sans', bold;
+  font-weight: 700;
+  color:#B7B5B5;
+}
+
+.date p span.jour{
+	color: white;
+	font-family: 'Open Sans', bold;
+    font-weight: 700;
+}
+
+.date a{
+	margin: 0% 47% 0% 0px;
+	color:#B7B5B5;
+}
+
+.content_bottom{
+	margin-top: 15%;
+	border-top: 0.5px solid grey;
+	margin-bottom: 6%;
+
+}
+
+.content_bottom .content_left{
+    display: inline-block;
+	box-sizing:border-box;
+	vertical-align: top;
+	width: 30%;
+	color:#B7B5B5;
+	font-family: 'Open Sans', light;
+    font-weight: 300;
+}
+
+.content_bottom .content_middle{
+    display: inline-block;
+	box-sizing:border-box;
+	vertical-align: top;
+	width: 30%;
+	margin-left: 3%;
+}
+
+.content_bottom .content_middle img{
+	width: 108%
+}
+
+.content_bottom .content_right{
+    display: inline-block;
+	box-sizing:border-box;
+	vertical-align: top;
+	width: 30%;
+	margin-left: 5%;
+}
+
+.content_bottom h3{
+	font-family: 'Open Sans', bold;
+    font-weight: 700;
+    color: white;
+}
+
+.content_bottom h4{
+	font-family: 'Open Sans', bold;
+    font-weight: 700;
+    color:#B7B5B5;
+}
+
+.content_bottom h5{
+	font-family: 'Open Sans', light;
+    font-weight: 300;
+    color:grey;
+    margin-top: -3%;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
