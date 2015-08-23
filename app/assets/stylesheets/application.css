@@ -310,6 +310,92 @@ form h5{
     font-weight: 300;
     color:grey;
 }
+
+.content_images{
+	border-top: 0.5px solid grey;
+}
+
+.ligne_images1{
+    margin-top: 5%;
+}
+
+.ligne_images2{
+	margin-top: 0.5%;
+}
+
+.ligne_images3{
+	margin-top: 0.3%;
+	margin-bottom: -10%;
+}
+
+.image1_photo{
+	width: 65%;
+	display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.image2_photo{
+	width: 32%;
+	display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.image3_photo{
+	width: 32%;
+    float: right;
+    margin: -21.2% 2.5% 0px 0px;
+}
+
+.image4_photo{
+	width: 39.5%;
+	display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.image5_photo{
+	width: 39.5%;
+	display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.image6_photo{
+	width: 17.7%;
+	display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.image7_photo{
+	width: 28.2%;
+	display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.image8_photo{
+	width: 28.2%;
+	display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.image9_photo{
+	width: 12.5%;
+	display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.image10_photo{
+	width: 27%;
+	display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
