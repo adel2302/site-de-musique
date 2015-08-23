@@ -1,3 +1,74 @@
+body{
+width: 100%;
+background-image: url("/assets/background.jpg");
+background-attachment: fixed;
+background-size: cover;
+background-position: 0% 60%;
+}
+
+.background_filter::before {
+ background-color: rgba(59, 53, 53, 0.65);
+ content: "";
+ position: absolute;
+ z-index: -1;
+ width: 100%;
+ height: 112%;
+ -webkit-filter: opacity(65%);
+ -moz-filter: opacity(65%);
+ -o-filter: opacity(65%);
+}
+.background_filter {
+ position: absolute;
+ z-index: 0;
+ width: 100%;
+}
+
+header{
+  text-align:center;
+   margin-top:50px;
+}
+
+.nav li a { 
+ color:#a1a1a1;
+ text-decoration:none; 
+ padding : 0 0.9em;
+}
+
+.nav li a:hover {
+ color:white;
+ }
+
+.nav li{
+ display:inline;
+ }
+
+footer{
+   width:85%;
+   border-top: 0.5px solid grey;
+   margin: auto;
+   text-align:center;
+ }
+
+footer ul{
+  margin-top: 2.5%;
+
+}
+
+footer ul li{
+	display: inline;
+}
+
+footer ul li i{
+  color:white;
+  padding : 0 1.2em;
+}
+
+footer h5{
+  margin-top: 3.5%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: white;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

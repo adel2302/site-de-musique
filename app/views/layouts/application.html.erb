@@ -2,13 +2,45 @@
 <html>
 <head>
   <title>SiteDeMusique</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <div class="background_filter">
+    <header>
+      <ul class="nav">
+        <li><a href= "/home">HOME</a></li>
+        <li><a href= "/bio">BIO</a></li>
+        <li><a href= "/photos">PHOTOS</a></li>
+        <li><a href= "/music">MUSIC</a></li>
+        <li><a href= "/videos">VIDEOS</a></li>
+        <li><a href= "/contact">NEWS</a></li>
+        <li><a href= "/tour">TOUR</a></li>
+        <li><a href= "/contact">CONTACT</a></li>
+      </ul>
+    </header>
 <%= yield %>
-
+ <footer>
+    <ul>
+    <li><a href= "#"><i class="fa fa-twitter"></i></a></li>
+    <li><a href= "#"><i class="fa fa-facebook-square"></i></a></li>
+    <li><a href= "#"><i class="fa fa-amazon"></i></a></li>
+    <li><a href= "#"><i class="fa fa-apple"></i></a></li>
+    <li><a href= "#"><i class="fa fa-soundcloud"></i></a></li>
+    <li><a href= "#"><i class="fa fa-vimeo"></i></a></li>
+    <li><a href= "#"><i class="fa fa-youtube-play"></i></a></li>
+    <li><a href= "#"><i class="fa fa-spotify"></i></a></li>
+    </li>
+  </ul>
+  <h5>OBSIDIAN MUSIC THEME BY AUDIOTHEME.</h5>
+  </footer>
+  </div>
+</body>
+</html>
+  </div>
 </body>
 </html>
