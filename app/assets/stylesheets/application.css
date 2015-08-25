@@ -396,6 +396,73 @@ form h5{
     box-sizing: border-box;
     vertical-align: top;
 }
+
+.content_news{
+	border-top: 0.5px solid grey;
+}
+
+.content_left_news{
+	width: 60%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.content_right_news{
+	display: inline-block;
+	box-sizing:border-box;
+	vertical-align: top;
+	width: 31%;
+	margin:4% 0% 0px 8%;
+}
+
+.recherche{
+	background-color: rgba(11, 10, 10, 0.25);
+    border: 0.5px solid rgb(107, 102, 102);
+    width: 100%;
+    height: 35px;
+    color:#E3DDDD;
+}
+
+.content_right_news h3, h4{
+	font-family: 'Open Sans', bold;
+    font-weight: 700;
+	color: white;
+}
+
+.content_right_news p{
+	font-family: 'Open Sans', light;
+    font-weight: 300;
+    color:#CFCFCF;
+}
+
+.content_right_news h5{
+	font-family: 'Open Sans', light;
+    font-weight: 300;
+    color:grey;
+}
+
+.content_news img {
+	width: 110%;
+}
+
+.content_left_news h5{
+  font-family: 'Open Sans', light;
+    font-weight: 300;
+    color:grey;
+}
+
+.content_left_news h2{
+  font-family: 'Open Sans', bold;
+    font-weight: 700;
+  color: white;
+}
+
+.content_left_news p{
+  font-family: 'Open Sans', light;
+    font-weight: 300;
+    color:#CFCFCF;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
