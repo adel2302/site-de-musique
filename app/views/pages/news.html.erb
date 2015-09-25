@@ -4,16 +4,12 @@
     <h6>NEWS</h6>
    </div>
 <div class="content_news">
- <div class="content_left_news">
-  <h2>Welcome to our redesigned website</h2>
-  <h5>BY BRODY ON APRIL 1, 2015</h5>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non commodo tortor. Etiam et dui imperdiet, venenatis quam vel, imperdiet nisi. Praesent lacinia augue ut erat dictum, ac sollicitudin lorem elementum. Curabitur venenatis turpis convallis dui tristique, quis pellentesque nunc sodales. Nam elementum magna vitae libero bibendum cursus. Donec sed dui sit amet ligula congue vulputate. Ut a finibus diam. Sed rhoncus nec ante et tincidunt. Ut ullamcorper neque turpis, ut ultrices lorem malesuada non. In hac habitasse platea dictumst. Curabitur non odio bibendum, tincidunt libero eu, consequat turpis. Vestibulum nec consectetur ipsum, venenatis ornare risus. Curabitur porta sodales dui eu efficitur. Integer facilisis finibus nunc, ac ullamcorper massa blandit sed. </p>
-  <h2>New tour dates posted</h2>
-  <h5>BY BRODY ON DECEMBER 16, 2014</h5>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non commodo tortor. Etiam et dui imperdiet, venenatis quam vel, imperdiet nisi. Praesent lacinia augue ut erat dictum, ac sollicitudin lorem elementum. Curabitur venenatis turpis convallis dui tristique, quis pellentesque nunc sodales. Nam elementum magna vitae libero bibendum cursus. Donec sed dui sit amet ligula congue vulputate. Ut a finibus diam. Sed rhoncus nec ante et tincidunt. Ut ullamcorper neque turpis, ut ultrices lorem malesuada non. In hac habitasse platea dictumst. Curabitur non odio bibendum, tincidunt libero eu, consequat turpis. Vestibulum nec consectetur ipsum, venenatis ornare risus. Curabitur porta sodales dui eu efficitur. Integer facilisis finibus nunc, ac ullamcorper massa blandit sed. </p>
-  <h2>History of Popular Music</h2>
-  <h5>BY BRODY ON DECEMBER 14, 2014</h5>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non commodo tortor. Etiam et dui imperdiet, venenatis quam vel, imperdiet nisi. Praesent lacinia augue ut erat dictum, ac sollicitudin lorem elementum. Curabitur venenatis turpis convallis dui tristique, quis pellentesque nunc sodales. Nam elementum magna vitae libero bibendum cursus. Donec sed dui sit amet ligula congue vulputate. Ut a finibus diam. Sed rhoncus nec ante et tincidunt. Ut ullamcorper neque turpis, ut ultrices lorem malesuada non. In hac habitasse platea dictumst. Curabitur non odio bibendum, tincidunt libero eu, consequat turpis. Vestibulum nec consectetur ipsum, venenatis ornare risus. Curabitur porta sodales dui eu efficitur. Integer facilisis finibus nunc, ac ullamcorper massa blandit sed. </p>
+ <div class="content_left_news"> 
+   <% @news.each do |new| %>
+     <h2><%= new.title %></h2>
+     <h5>BY <%= new.author %> ON <%= new.date %></h5>
+     <p><%= new.content %></p> 
+   <% end %>
     <h2>Morning Star Now Available!</h2>
     <h5>BY BRODY ON DECEMBER 14, 2014</h5>
       <img src="/assets/album-01.jpg">

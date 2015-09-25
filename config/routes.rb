@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  devise_for :admins
+  get 'admin/home'
+  root 'admin#home'
   get 'pages/home'
   get 'pages/contact'
   get 'pages/news'
